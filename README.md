@@ -10,7 +10,7 @@
 
 This library provides a unique 64-bit ID over various Arduino platforms.
 
-Such a feature is useful for the [OpenCyphal](https://opencyphal.org/) protocol and it's Arduino port [107-Arduino-Cyphal](https://github.com/107-systems/107-Arduino-Cyphal) but naturally can also be used in another context.
+Such a feature is useful for the [Cyphal](https://opencyphal.org/) protocol and it's Arduino port [107-Arduino-Cyphal](https://github.com/107-systems/107-Arduino-Cyphal) but naturally can also be used in another context.
 
 <p align="center">
   <a href="https://github.com/107-systems/l3xz"><img src="https://raw.githubusercontent.com/107-systems/.github/main/logo/l3xz-logo-memento-mori-github.png" width="40%"></a>
