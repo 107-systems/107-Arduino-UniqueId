@@ -49,6 +49,7 @@ public:
   uint8_t operator[](size_t const idx) const;
   typedef std::array<uint8_t, ID_SIZE> Array;
   Array operator()() const;
+  Array value() const;
 
 
   virtual size_t printTo(Print & p) const override;

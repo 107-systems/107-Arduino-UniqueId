@@ -51,6 +51,11 @@ uint8_t UniqueId16::operator[](size_t const idx) const
 
 UniqueId16::Array UniqueId16::operator()() const
 {
+  return value();
+}
+
+UniqueId16::Array UniqueId16::value() const
+{
   Array uid;
   std::copy(std::begin(_unique_id),
             std::end  (_unique_id),
