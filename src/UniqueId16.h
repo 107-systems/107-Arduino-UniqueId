@@ -5,8 +5,7 @@
  * Contributors: https://github.com/107-systems/107-Arduino-UniqueId/graphs/contributors.
  */
 
-#ifndef ARDUINO_UNIQUE_ID_H_
-#define ARDUINO_UNIQUE_ID_H_
+#pragma once
 
 /**************************************************************************************
  * INCLUDE
@@ -77,5 +76,3 @@ typedef impl::UniqueId16::Array UniqueId16Array;
  **************************************************************************************/
 
 #define OpenCyphalUniqueId impl::UniqueId16::instance()
-
-#endif /* ARDUINO_UNIQUE_ID_H_ */
